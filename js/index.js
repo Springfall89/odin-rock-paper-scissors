@@ -23,15 +23,11 @@ function getRandomInt(maxNum)
 function shuffleFavicon()
 {
     const favicon = document.querySelector("#favicon");
-    if (getRandomInt(3) === 0)
-    {
-        favicon.setAttribute("href", "./imgs/svgs/emojis/rock.svg");
-    }
-    else if (getRandomInt(3) === 1)
+    if (getRandomInt(2) === 0)
     {
         favicon.setAttribute("href", "./imgs/svgs/emojis/paper.svg");
     }
-    else if (getRandomInt(3) === 2)
+    else if (getRandomInt(2) === 1)
     {
         favicon.setAttribute("href", "./imgs/svgs/emojis/scissors.svg");
     }
