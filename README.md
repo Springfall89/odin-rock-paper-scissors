@@ -1,5 +1,5 @@
 # Live Website
-**View the live website at https://springfall89.github.io/rock-paper-scissors/**
+**View the live website at https://springfall89.github.io/odin-rock-paper-scissors/**
 # Rock Paper Scissors
 A project created to follow the Odin Project curriculum.
 
